@@ -107,7 +107,7 @@ export default function NavBar(): JSX.Element {
               <li className="mb-2">
                 <a
                   target="_blank"
-                  href="https://github.com/GetPerspectdev/browser-perspect"
+                  href="https://github.com/GetPerspectdev/browser-perspect/issues"
                   rel="noreferrer"
                   className="text-body-secondary link-underline link-underline-opacity-0 d-flex w-100 align-items-center"
                 >

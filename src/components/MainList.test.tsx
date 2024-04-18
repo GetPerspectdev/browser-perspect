@@ -38,17 +38,6 @@ describe('MainList', () => {
               />
               Options
             </a>
-            <a
-              class="list-group-item text-body-secondary"
-              href="https://app.perspect.xyz/login"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <i
-                class="fa fa-fw fa-sign-in me-2"
-              />
-              Login
-            </a>
           </div>
         </div>
       </div>

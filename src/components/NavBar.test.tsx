@@ -95,7 +95,7 @@ describe('NavBar', () => {
                   >
                     <a
                       class="text-body-secondary link-underline link-underline-opacity-0 d-flex w-100 align-items-center"
-                      href="https://github.com/wakatime/chrome-wakatime/issues"
+                      href="https://github.com/GetPerspectdev/browser-perspect/issues"
                       rel="noreferrer"
                       target="_blank"
                     >
@@ -110,7 +110,7 @@ describe('NavBar', () => {
                   >
                     <a
                       class="text-body-secondary link-underline link-underline-opacity-0 d-flex w-100 align-items-center"
-                      href="https://github.com/wakatime/chrome-wakatime"
+                      href="https://github.com/GetPerspectdev/browser-perspect"
                       rel="noreferrer"
                       target="_blank"
                     >
