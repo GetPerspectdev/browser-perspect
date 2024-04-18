@@ -120,7 +120,7 @@ const config: Config = {
 
   apiKey: '',
 
-  apiUrl: process.env.API_URL ?? 'https://api.wakatime.com/api/v1',
+  apiUrl: process.env.API_URL ?? 'https://loom.getperspect.dev/api/v1',
 
   colors: {
     allGood: '',
@@ -156,9 +156,9 @@ const config: Config = {
 
   loggingType: 'domain',
 
-  logoutUserUrl: process.env.LOGOUT_USER_URL ?? 'https://wakatime.com/logout',
+  logoutUserUrl: process.env.LOGOUT_USER_URL ?? 'https://app.perspect.xyz/logout',
 
-  name: 'WakaTime',
+  name: 'Perspect',
 
   nonTrackableSites: ['chrome://', 'about:'],
 

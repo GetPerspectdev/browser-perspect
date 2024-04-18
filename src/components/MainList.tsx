@@ -92,7 +92,7 @@ export default function MainList({
           <i className="fa fa-fw fa-cogs me-2"></i>
           Options
         </a>
-        {user && (
+        {/* {user && (
           <div>
             <a href="#" className="list-group-item text-body-secondary" onClick={logoutUser}>
               <i className="fa fa-fw fa-sign-out me-2"></i>
@@ -104,13 +104,13 @@ export default function MainList({
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://wakatime.com/login"
+            href="https://app.perspect.xyz/login"
             className="list-group-item text-body-secondary"
           >
             <i className="fa fa-fw fa-sign-in me-2"></i>
             Login
           </a>
-        )}
+        )} */}
       </div>
     </div>
   );

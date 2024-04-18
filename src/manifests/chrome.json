@@ -1,11 +1,11 @@
 {
   "action": {
     "default_icon": {
-      "19": "graphics/wakatime-logo-19.png",
-      "38": "graphics/wakatime-logo-38.png"
+      "19": "graphics/perspect-logo-19.png",
+      "38": "graphics/perspect-logo-38.png"
     },
     "default_popup": "popup.html",
-    "default_title": "WakaTime"
+    "default_title": "Perspect"
   },
   "background": {
     "service_worker": "background.js",
@@ -20,15 +20,19 @@
   ],
   "description": "Automatic time tracking for Chrome.",
   "devtools_page": "devtools.html",
-  "homepage_url": "https://wakatime.com",
-  "host_permissions": ["https://api.wakatime.com/*", "https://wakatime.com/*"],
+  "homepage_url": "https://www.perspect.xyz",
+  "host_permissions": [
+    "https://loom.getperspect.dev/*",
+    "https://perspect.xyz/*",
+    "https://app.perspect.xyz/*"
+  ],
   "icons": {
-    "16": "graphics/wakatime-logo-16.png",
-    "48": "graphics/wakatime-logo-48.png",
-    "128": "graphics/wakatime-logo-128.png"
+    "16": "graphics/perspect-logo-16.png",
+    "48": "graphics/perspect-logo-48.png",
+    "128": "graphics/perspect-logo-128.png"
   },
   "manifest_version": 3,
-  "name": "WakaTime",
+  "name": "Perspect",
   "options_ui": {
     "page": "options.html"
   },

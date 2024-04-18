@@ -56,10 +56,10 @@ const getConfigByBrowser = (isProd: boolean, browser: BrowserTypes): webpack.Con
         ],
       }),
       new webpack.DefinePlugin({
-        ['process.env.API_URL']: JSON.stringify('https://api.wakatime.com/api/v1'),
+        ['process.env.API_URL']: JSON.stringify('https://loom.getperspect.dev/api/v1'),
         ['process.env.CURRENT_USER_API_URL']: JSON.stringify('/users/current'),
         ['process.env.HEARTBEAT_API_URL']: JSON.stringify('/users/current/heartbeats'),
-        ['process.env.LOGOUT_USER_URL']: JSON.stringify('https://wakatime.com/logout'),
+        ['process.env.LOGOUT_USER_URL']: JSON.stringify('https://app.perspect.xyz/logout'),
         ['process.env.NODE_ENV']: JSON.stringify(isProd ? 'production' : 'development'),
         ['process.env.SUMMARIES_API_URL']: JSON.stringify('/users/current/summaries'),
       }),

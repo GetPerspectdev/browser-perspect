@@ -25,16 +25,18 @@ describe('NavBar', () => {
             class="navbar-header d-flex w-100 justify-content-between"
           >
             <a
-              class="navbar-brand"
-              href="https://wakatime.com"
+              class="navbar-brand align-middle"
+              href="https://app.perspect.xyz"
               rel="noreferrer"
               target="_blank"
             >
               <img
-                src="graphics/wakatime-logo-48.png"
+                src="graphics/perspect-logo-48.png"
               />
-              <div>
-                WakaTime
+              <div
+                class="align-self-center"
+              >
+                Perspect
               </div>
             </a>
             <button

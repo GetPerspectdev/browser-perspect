@@ -40,7 +40,7 @@ describe('MainList', () => {
             </a>
             <a
               class="list-group-item text-body-secondary"
-              href="https://wakatime.com/login"
+              href="https://app.perspect.xyz/login"
               rel="noreferrer"
               target="_blank"
             >

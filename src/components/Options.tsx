@@ -282,9 +282,9 @@ export default function Options(): JSX.Element {
                 className="form-control"
                 value={state.apiUrl}
                 onChange={(e) => setState({ ...state, apiUrl: e.target.value })}
-                placeholder="https://api.wakatime.com/api/v1"
+                placeholder="https://loom.getperspect.dev/api/v1"
               />
-              <span className="help-block">https://api.wakatime.com/api/v1</span>
+              <span className="help-block">https://loom.getperspect.dev/api/v1</span>
             </div>
 
             <div className="form-group row mb-4">

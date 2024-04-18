@@ -46,7 +46,7 @@ export default function NavBar(): JSX.Element {
         <li className="mb-2">
           <a
             target="_blank"
-            href="https://wakatime.com/dashboard"
+            href="https://app.perspect.xyz/tva"
             rel="noreferrer"
             className="text-body-secondary link-underline link-underline-opacity-0 d-flex w-100 align-items-center"
           >
@@ -63,9 +63,14 @@ export default function NavBar(): JSX.Element {
   return (
     <nav className="navbar shadow-none" role="navigation">
       <div className="navbar-header d-flex w-100 justify-content-between">
-        <a target="_blank" className="navbar-brand" href="https://wakatime.com" rel="noreferrer">
-          <img src="graphics/wakatime-logo-48.png" />
-          <div>WakaTime</div>
+        <a
+          target="_blank"
+          className="navbar-brand align-middle"
+          href="https://app.perspect.xyz"
+          rel="noreferrer"
+        >
+          <img src="graphics/perspect-logo-48.png" />
+          <div className="align-self-center">Perspect</div>
         </a>
         <button
           className="navbar-toggler"
@@ -102,7 +107,7 @@ export default function NavBar(): JSX.Element {
               <li className="mb-2">
                 <a
                   target="_blank"
-                  href="https://github.com/wakatime/chrome-wakatime/issues"
+                  href="https://github.com/GetPerspectdev/browser-perspect"
                   rel="noreferrer"
                   className="text-body-secondary link-underline link-underline-opacity-0 d-flex w-100 align-items-center"
                 >
@@ -113,7 +118,7 @@ export default function NavBar(): JSX.Element {
               <li className="mb-2">
                 <a
                   target="_blank"
-                  href="https://github.com/wakatime/chrome-wakatime"
+                  href="https://github.com/GetPerspectdev/browser-perspect"
                   rel="noreferrer"
                   className="text-body-secondary link-underline link-underline-opacity-0 d-flex w-100 align-items-center"
                 >

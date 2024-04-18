@@ -25,7 +25,7 @@ describe('wakatime config', () => {
           },
         },
         "apiKey": "",
-        "apiUrl": "https://api.wakatime.com/api/v1",
+        "apiUrl": "https://loom.getperspect.dev/api/v1",
         "colors": {
           "allGood": "",
           "lightTheme": "white",
@@ -51,8 +51,8 @@ describe('wakatime config', () => {
         "loggingEnabled": true,
         "loggingStyle": "blacklist",
         "loggingType": "domain",
-        "logoutUserUrl": "https://wakatime.com/logout",
-        "name": "WakaTime",
+        "logoutUserUrl": "https://app.perspect.xyz/logout",
+        "name": "Perspect",
         "nonTrackableSites": [
           "chrome://",
           "about:",

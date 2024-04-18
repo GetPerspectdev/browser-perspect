@@ -5,15 +5,15 @@
   },
   "browser_action": {
     "default_icon": {
-      "19": "graphics/wakatime-logo-19.png",
-      "38": "graphics/wakatime-logo-38.png"
+      "19": "graphics/perspect-logo-19.png",
+      "38": "graphics/perspect-logo-38.png"
     },
     "default_popup": "popup.html",
-    "default_title": "WakaTime"
+    "default_title": "Perspect"
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "addon@wakatime.com",
+      "id": "addon@perspect.xyz",
       "strict_min_version": "48.0"
     }
   },
@@ -26,14 +26,19 @@
   ],
   "description": "Automatic time tracking for Firefox.",
   "devtools_page": "devtools.html",
-  "homepage_url": "https://wakatime.com",
+  "homepage_url": "https://www.perspect.xyz",
+  "host_permissions": [
+    "https://loom.getperspect.dev/*",
+    "https://perspect.xyz/*",
+    "https://app.perspect.xyz/*"
+  ],
   "icons": {
-    "16": "graphics/wakatime-logo-16.png",
-    "48": "graphics/wakatime-logo-48.png",
-    "128": "graphics/wakatime-logo-128.png"
+    "16": "graphics/perspect-logo-16.png",
+    "48": "graphics/perspect-logo-48.png",
+    "128": "graphics/perspect-logo-128.png"
   },
   "manifest_version": 2,
-  "name": "WakaTime",
+  "name": "Perspect",
   "options_ui": {
     "chrome_style": false,
     "page": "options.html"
